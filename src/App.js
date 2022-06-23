@@ -16,7 +16,7 @@ function App() {
       <div className="card container p-20">
         <h1 className="mb-20">Liste de tâches</h1>
         <AddTodo addTodo={addTodo} />
-        <TodoList />
+        <TodoList todoList={todoList} />
       </div>
     </div>
   );
