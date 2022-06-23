@@ -6,10 +6,7 @@ export default function TodoItem({ todo, deleteTodo }) {
       <span className="flex-fill">{todo.content}</span>
       <button className="btn btn-primary mr-15">Valider</button>
       <button className="btn btn-primary mr-15">Modifier</button>
-      <button
-        className="btn btn-reverse-primary"
-        onClick={() => deleteTodo(todo.id)}
-      >
+      <button className="btn btn-reverse-primary" onClick={deleteTodo}>
         Supprimer
       </button>
     </li>

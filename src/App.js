@@ -7,7 +7,6 @@ function App() {
 
   function addTodo(content) {
     const todo = { id: crypto.randomUUID(), done: false, edit: false, content };
-    console.log(todo);
     setTodoList([...todoList, todo]);
   }
 
